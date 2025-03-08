@@ -1,0 +1,41 @@
+* {
+ background-color: #2d3d50 ;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;      
+}
+
+.image h1{
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.buttons button{
+    margin-top: 35px;
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+    background-color: #3498db;
+    color: aliceblue;
+    font-size: 50px;
+    width: 80px;
+    height: 80px;
+    transition: background-color 0.3s ease; 
+    cursor: pointer;
+}
+
+.buttons button:active {
+    background-color: darkslategray; /* Tıklanıldığında arka plan rengi değişir */
+}
